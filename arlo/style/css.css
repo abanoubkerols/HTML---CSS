@@ -1,0 +1,344 @@
+:root{
+    --mainColor:#e65f78;
+    
+}
+
+
+  /* <!-- navbar start --> */
+  .navbar-dark .navbar-toggler-icon{
+      background-color: black;
+     
+  } 
+  .navbar-dark .navbar-toggler{
+
+    color: var(--mainColor)
+    
+  }
+.navbar-dark .navbar-nav .nav-link{
+    color: black;
+    font-size: 20px;
+    padding: 0px 15px ;
+    font-weight: 400;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color:var(--mainColor);
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: var(--mainColor);
+}
+/* <!-- navbar end --> */
+
+
+/* fixed icon  */
+.fixed-right-icon{
+    position: fixed;
+    top: 30%;
+    right: 0;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+.bottom-center-icon{
+    position: absolute;
+    top:85%;
+    left: 50%;
+    
+}
+/* fixed icon  */
+
+/* <!-- headr - main veiw start --> */
+
+header{
+    background-image: url(Imgs/1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 100vh;
+    margin-bottom: 50px;
+
+}
+.img-on-header{
+    width:200px;
+    height:200px;
+    border: 8px solid rgba(32, 45, 59,.7);
+    border-radius: 50%;
+}
+
+.dark-layer
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.dark-layer span{
+    color: var(--mainColor);
+}
+.dark-layer h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.animation-text::after{
+    
+    font-weight: 500;
+    content: "|";
+    animation-name:job ;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes job  {
+    0% {
+        content: 'F|';
+    }
+    3% {
+        content: 'Fre|';
+    }
+    6% {
+        content: 'Free|';
+    }
+    9% {
+        content:'Freel|';
+    }
+    12% {
+        content: 'Freela|';
+    }
+    15% {
+        content: 'Freelan|';
+    }
+    18% {
+        content: 'Freelanc|';
+    }
+    21% {
+        content:'Freelance|';
+    }
+    24% {
+        content:'Freelancer|';
+    }
+    27% {
+        content:'Freelance|';
+    }
+    30% {
+        content: 'Freelanc|';
+    }
+    33% {
+        content:'Freelan|';
+    }
+    36% {
+        content: 'Freela|';
+    }
+    39% {
+        content: 'Freel|';
+    }
+    42% {
+        content:'Free|';
+    }
+    45% {
+        content:  'Fre|';
+    }
+    48% {
+        content: 'Fr|';
+    }
+    51% {
+        content:'F|';
+    }
+    54% {
+        content: 'D|';
+    }
+    57% {
+        content: 'De|';
+    }
+    60% {
+        content: 'Dev|';
+    }
+    63% {
+        content: 'Deve|';
+    }
+    67% {
+        content: 'Devel|';
+    }
+    70% {
+        content: 'Develo|';
+    }
+    71% {
+        content: 'Develop|';
+    }
+    74% {
+        content: 'Develope|';
+    }
+    77% {
+        content: 'Developer |';
+    }
+    80% {
+        content: ' Develope|';
+    }
+    83% {
+        content: ' Develop|';
+    }
+    86% {
+        content: 'Develo|';
+    }
+    89% {
+        content: ' Devel|';
+    }
+    92% {
+        content: ' Deve|';
+    }
+    95% {
+        content: ' Dev|';
+    }
+    98% {
+        content: ' De|';
+    }
+    100% {
+        content: 'D|';
+    }
+}
+
+/* <!-- headr - main veiw end --> */
+
+
+/* <!-- about- me start --> */
+
+.red-word{
+    color: var(--mainColor);
+    font-weight: 450;        
+}
+.border-img{
+    border: 10px solid black;
+}
+.about-border-img
+{
+    position: relative;
+    top:-20px;
+    left: -20px;
+}
+
+.animation-text1::after{
+    color: var(--mainColor);
+    content: "|";
+    animation-name:job ;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.text-muted span{
+    color: var(--mainColor);
+    font-style: italic;
+}
+.icon-color{
+    color:var(--mainColor);
+}
+label{
+    width: 70px;
+    font-weight: bold;
+}
+.btn-will-hover{
+    background-color: var(--mainColor);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    border: none;
+    }
+.btn-will-hover a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+.btn-will-hover{
+    overflow: hidden;
+    z-index: 11;
+}
+
+.btn-will-hover::after{
+    content: "";
+    width: 150%;
+    height: 100%;
+    position: absolute;
+    right: -195%;
+    top:0%;
+    background-color:#bd334cbb;
+    transform: skewx(45deg);
+    transition: all 1s;
+    z-index: -1;
+}
+.btn-will-hover:hover::after{
+    right:-20%;
+}
+
+/* <!-- about- me end --> */
+
+
+/* <!-- SERVICES start --> */
+.inner{
+    padding:60px 40px 40px;
+    width: 80%;
+}
+/* <!-- SERVICES end --> */
+
+/* <!-- PORTFOLIO start --> */
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color:var(--mainColor);
+    border: none;
+    background-color: transparent;
+}
+.nav-tabs .nav-link{
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+.nav-tabs {
+border: none;
+}
+
+.hover-img img{
+    transition: all 1s;
+    
+}
+.hover-img:hover img{
+    transform: scale(1.2);
+
+
+}
+.size{
+    width: 300px;
+    height: 300px;
+}
+/* <!-- PORTFOLIO end --> */
+
+
+/* <!-- news  start --> */
+.rotate img{
+    transition: all 1s;
+    
+}
+.rotate:hover img{
+    transform: rotate(4deg)  scale(1.1);
+   
+
+}
+
+.box-map{
+    width: 100%;
+    height: 100%; 
+    
+   
+}
+.box-map iframe{
+    width: 100%;
+    height: 100%;
+}

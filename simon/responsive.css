@@ -1,0 +1,159 @@
+@media screen and (max-width:650px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.116); 
+        color: black;  
+     }
+
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar ul li {
+        padding-bottom: 10px;
+    }
+    .navbar ul li a{
+        color: black;
+        font-weight: 600;
+
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .bottom-icon{
+        z-index: 222;
+    }
+    .fixed-icon-bottom{
+
+          z-index: 222;}
+          
+
+    .back-word {
+        font-size: 80px;
+        width: 100%;
+
+    }
+
+    .front-word {
+
+        width: 100%;
+        align-self: center;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .front-word::after {
+
+        width: 26px;
+        height: 3px;
+        left: 48%;
+
+    }
+}
+
+
+
+@media screen and (max-width:800px) {
+
+    .number-section {
+        display: block;
+        text-align: center;
+
+    }
+
+    .number-section-width {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+
+}
+
+@media screen and (max-width:800px) {
+    .what-section {
+        display: block;
+        text-align: center;
+    }
+
+    .what-section-left {
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .what-section-right {
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .resume-section {
+        display: block;
+        text-align: center;
+
+    }
+    .resume-section-left{
+        width: 100%;
+
+    }
+    .resume-section-right{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .progress-bar
+    {
+        display: block;
+        text-align: center;
+    }
+    .progress-bar-left {
+        width: 100%;
+    }
+    .progress-bar-right
+    {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+    .for-cv-download{
+        width: 100%;
+        margin: auto; 
+       padding-top:10px ;
+       text-align: center;
+    }
+    .parent{
+        display: block;
+        text-align: center; 
+    }
+    .column-images{
+        width: 100%;
+
+      }
+      .dis-flx 
+      {
+        display: block;
+        text-align: center;
+      }
+      .bg-light{
+        width: 100%;
+        margin: 0px 0px 10px;
+        padding: 0;
+
+      }
+      .dis-flx{
+        display: block;
+        text-align: center;
+      }
+      .address
+      {
+        width: 100%;
+ 
+      }
+}
+
+
+
+
+
