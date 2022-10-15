@@ -56,7 +56,7 @@ body {
 /* <!-- nav bar start --> */
 .navbar {
     display: flex;
-    padding: 10px 40px;
+    padding: 15px 40px;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.9);
     position: fixed;
@@ -88,6 +88,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -250,11 +251,7 @@ h1::after
 
 .simon-contact {
     width: 30%;
-}
-
-.simon-contact span {
-    color: #4c4d4d;
-    font-weight: 700;
+    
 }
 
 .simon-contact p {
@@ -264,6 +261,15 @@ h1::after
     font-weight: 500;
     color: #4c4d4d;
     border-bottom: 1px solid #eaeaea;
+
+}
+
+
+.simon-contact span {
+    color: #4c4d4d;
+    font-weight: 700;
+    width: 20%;
+
 }
 
 .simon-contact .green {
@@ -652,7 +658,7 @@ h1::after
     padding: 15px 40px;
     transition-duration: .5s;
     cursor: pointer;
-    text-align: center;
+    /* text-align: center; */
 
 }
 

@@ -1,4 +1,4 @@
-@media screen and (max-width:650px) {
+@media screen and (max-width:500px) {
     .navbar {
         flex-direction: column;
         text-align: center;
@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1200px) {
 
     .bottom-icon{
         z-index: 222;
@@ -55,7 +55,7 @@
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1200px) {
 
     .number-section {
         display: block;
@@ -72,7 +72,7 @@
 
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1200px) {
     .what-section {
         display: block;
         text-align: center;
