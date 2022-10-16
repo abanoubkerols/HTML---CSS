@@ -40,3 +40,27 @@
         display: none;
     }
 }
+
+
+@media (max-width : 991px){
+    .about .about-content{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width : 991px){
+    .about .image::after,
+    .about .image::before
+    {
+       display: none;
+    }
+}
+
+
+@media (max-width : 991px){
+    .about .about-content .image 
+    {
+       margin: 0 auto 80px;
+    }
+}
