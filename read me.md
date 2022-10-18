@@ -10,24 +10,26 @@ ___
 
 ___
 
-### 2- DivFolio
+### 2- Arlo
 
 [**Click me to show the project**](https://abanoubkerols.github.io/Responsive-websites/arlo/)
 
-![DevFolio](./arlo/arlo.png)
+![Arlo](./arlo/arlo.png)
 
 ___
 
-### 3- DivFolio
+### 3- landingPage
+#### I Used Media Query to make this page responsive
 
 [**Click me to show the project**](https://abanoubkerols.github.io/Responsive-websites/landing%20page/)
 
-![DevFolio](./landing%20page/landing%20page.png)
+![landingPage](./landing%20Page/landing%20page.png)
 
 ___
 
 ### 4-  Simon
+#### I Used Media Query to make this page responsive
 
 [**Click me to show the project**](https://abanoubkerols.github.io/Responsive-websites/simon/)
 
-![DevFolio](./simon/simon.png)
+![Simon](./simon/simon.png)
