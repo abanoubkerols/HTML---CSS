@@ -5,6 +5,22 @@
         background-color: rgba(0, 0, 0, 0.116); 
         color: black;  
      }
+     .back-word {
+        font-size: 20px;
+        width: 60%;
+
+    }
+    .main-view{
+        width: 100%;
+    }
+
+    .front-word {
+
+        width: 60%;
+        align-self: center;
+        font-weight: 700;
+        font-size: 8px;
+    }
 
     .navbar ul {
         flex-direction: column;
@@ -15,12 +31,12 @@
     }
     .navbar ul li a{
         color: black;
-        font-weight: 600;
+        font-weight: 500;
 
     }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1000px) {
 
     .bottom-icon{
         z-index: 222;
@@ -55,7 +71,7 @@
 
 
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1000px) {
 
     .number-section {
         display: block;
@@ -72,7 +88,7 @@
 
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1000px) {
     .what-section {
         display: block;
         text-align: center;
