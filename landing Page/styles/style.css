@@ -402,7 +402,7 @@ html{
 
 .contact .link {
   display: block;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 800;
   color: var(--main-color);
   text-decoration: none;

@@ -90,7 +90,7 @@ header{
 
 .animation-text::after{
     
-    font-weight: 500;
+    font-weight: 200;
     content: "|";
     animation-name:job ;
     animation-duration: 3s;
@@ -268,7 +268,7 @@ label{
     width: 150%;
     height: 100%;
     position: absolute;
-    right: -195%;
+    right: -170%;
     top:0%;
     background-color:#bd334cbb;
     transform: skewx(45deg);
