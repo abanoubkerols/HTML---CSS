@@ -20,7 +20,7 @@ ___
 ### 3- landingPage
 #### I Used Media Query to make this page responsive
 
-[**Click  to show the project**](https://abanoubkerols.github.io/Responsive-websites/landing%20page/)
+[**Click  to show the project**](https://abanoubkerols.github.io/Responsive-websites/landing%20Page/)
 
 
 
