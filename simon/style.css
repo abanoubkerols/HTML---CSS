@@ -2,57 +2,58 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
+
+
 }
 
 body {
     font-family: "Poppins", sans-serif;
 }
 
-.fixed-icon-right
-{
+.fixed-icon-right {
     width: 40px;
     height: 40px;
-    background-color:#4c4d4d;
+    background-color: #4c4d4d;
     position: fixed;
-    right: 0; 
-    top:200;
+    right: 0;
+    top: 200;
     border-radius: 6px;
 
 }
-.right-icon
-{
+
+.right-icon {
     color: white;
     font-size: 25px;
     position: relative;
     left: 8;
-    top:8;
-   
+    top: 8;
+
 }
-.fixed-icon-bottom
-{
+
+.fixed-icon-bottom {
     width: 40px;
     height: 40px;
-    background-color:#dddddd;
+    background-color: #dddddd;
     position: fixed;
-    right: 50; 
+    right: 50;
     bottom: 0;
     border-radius: 6px;
-    
+
 }
-.bottom-icon{
+
+.bottom-icon {
     color: white;
     font-size: 25px;
     position: relative;
     left: 10;
-    top:8;
-   
+    top: 8;
+
 }
-.fixed-icon-bottom:hover
-{
+
+.fixed-icon-bottom:hover {
     background-color: #20c997;
 }
+
 /* <!-- nav bar start --> */
 .navbar {
     display: flex;
@@ -113,34 +114,84 @@ body {
     font-size: 60px;
     padding-bottom: 30px;
 }
-h1::after
-{
+
+h1::after {
     content: "| ";
     animation-name: typing;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
-@keyframes typing
-{
-    
-      0%{content:"|";}  
-      5%{content:"|D";}  
-      10%{content:"|De";}  
-      15%{content: "|Des";}  
-      20%{content: "|Desi";}  
-      30%{content: "|Desig";}  
-      35%{content: "|Design";}  
-      40%{content: "|Designe";}  
-      50%{content: "|Designer";}  
-      55%{content: "|Designe";}  
-      60%{content: "|Design";}  
-      65%{content: "|Desig";}  
-      70%{content: "|Desi";}  
-      75%{content: "|Des";}  
-      80%{content: "|De";}  
-      85%{content: "|D";}  
-      90%{content: "|";}  
-    
+
+@keyframes typing {
+
+    0% {
+        content: "|";
+    }
+
+    5% {
+        content: "|D";
+    }
+
+    10% {
+        content: "|De";
+    }
+
+    15% {
+        content: "|Des";
+    }
+
+    20% {
+        content: "|Desi";
+    }
+
+    30% {
+        content: "|Desig";
+    }
+
+    35% {
+        content: "|Design";
+    }
+
+    40% {
+        content: "|Designe";
+    }
+
+    50% {
+        content: "|Designer";
+    }
+
+    55% {
+        content: "|Designe";
+    }
+
+    60% {
+        content: "|Design";
+    }
+
+    65% {
+        content: "|Desig";
+    }
+
+    70% {
+        content: "|Desi";
+    }
+
+    75% {
+        content: "|Des";
+    }
+
+    80% {
+        content: "|De";
+    }
+
+    85% {
+        content: "|D";
+    }
+
+    90% {
+        content: "|";
+    }
+
 }
 
 .content p {
@@ -211,7 +262,7 @@ h1::after
     position: absolute;
     width: 80px;
     height: 3px;
-    background-color:#20c997;
+    background-color: #20c997;
     top: 100%;
     left: 46%;
     margin-top: 10px;
@@ -251,7 +302,7 @@ h1::after
 
 .simon-contact {
     width: 30%;
-    
+
 }
 
 .simon-contact p {
@@ -329,12 +380,12 @@ h1::after
     display: flex;
     justify-content: space-between;
 }
-.dis-icon
-{
-    display:flex ; 
+
+.dis-icon {
+    display: flex;
 }
 
-.proprieties{
+.proprieties {
     width: 80px;
     height: 80px;
     background-color: white;
@@ -518,9 +569,21 @@ h1::after
     border-radius: 10px;
     background-color: #e9ecef;
     margin-bottom: 15px;
+    position: relative;
 
 
 }
+
+/* 
+.percentage-progress-forweb::after{
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #20c997;
+
+} */
 
 .percentage-progress-forweb .bar {
     width: 65%;
@@ -645,6 +708,8 @@ h1::after
     width: 30%;
     margin: auto;
     margin-top: 40px;
+    transform: translateX(15%);
+
 }
 
 .for-cv-download a {
@@ -658,6 +723,7 @@ h1::after
     transition-duration: .5s;
     cursor: pointer;
     text-align: center;
+
 
 }
 
@@ -749,6 +815,7 @@ h1::after
     transform: scale(1.1);
     filter: blur(2px);
 }
+
 /* <!-- My work section end --> */
 
 
@@ -760,78 +827,77 @@ h1::after
 
 
 /* <!-- Client Speak section start --> */
-.dis-flx
-{
+.dis-flx {
     display: flex;
     justify-content: space-between;
-  
+
 }
-.mr-top-btm
-{
-    margin: 30px 0px 90px  ;
+
+.mr-top-btm {
+    margin: 30px 0px 90px;
 
 
 }
-.mr-right
-{
-    margin-right:20px;
+
+.mr-right {
+    margin-right: 20px;
 }
-.mr-left
-{
+
+.mr-left {
     margin-left: 20px;
 }
 
-.bg-light
-{
+.bg-light {
     background-color: #f8f9fa;
     position: relative;
 }
-.width
-{
+
+.width {
     width: 50%;
 }
-.padding
-{
-    padding:30px
+
+.padding {
+    padding: 30px
 }
-.bord-radius 
-{
+
+.bord-radius {
     border-radius: 20px;
 }
-.inline
-{
+
+.inline {
     display: inline-block;
-    vertical-align:top;
+    vertical-align: top;
 }
-.bord-cir
-{
+
+.bord-cir {
     border-radius: 50%;
 }
-.inline p
-{
+
+.inline p {
     margin: 10px 0px 0px 10px;
     font-weight: 700;
 }
-.color{
-    color:#6c757d;
+
+.color {
+    color: #6c757d;
     font-size: 18px;
 }
-.color-icon
-{
-    color:#ffc107;
+
+.color-icon {
+    color: #ffc107;
 }
-.align-text
-{
-    margin: 20px 0px ;
+
+.align-text {
+    margin: 20px 0px;
     line-height: 1.9;
     font-weight: 600;
     font-size: 18;
 }
-.exceptional-hover
-{
+
+.exceptional-hover {
     position: absolute;
-    margin-right:20px;
-    padding:30px ;
+    margin-right: 20px;
+    padding: 30px;
     top: 0;
     right: 0;
     left: 0;
@@ -839,80 +905,79 @@ h1::after
     opacity: 0;
     transition-duration: .45s;
 }
-.for-blur
-{
+
+.for-blur {
     transition-duration: .45s;
 }
-.exceptional-hover:hover
-{
+
+.exceptional-hover:hover {
     opacity: 1;
 }
-.bg-light:hover .for-blur
-{
+
+.bg-light:hover .for-blur {
     filter: blur(25px);
 }
+
 /* <!-- Client Speak section end --> */
 
 
 
 /* <!-- Get in Touch section start --> */
-.address
-{
+.address {
     width: 30%;
 }
-.address p
-{
+
+.address p {
     color: #4c4d4d;
-    font-size:20px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.9;
     margin-top: 15px;
 }
-.address i
-{
+
+.address i {
     color: #20c997;
     margin-right: 10px;
-    
+
 }
-.margin
-{
+
+.margin {
     margin: 50px 0px;
     text-transform: uppercase
 }
 
-.for-contact
-{
+.for-contact {
     width: 95%;
 }
-.for-contact input
-{
+
+.for-contact input {
     width: 47%;
     height: 50px;
     margin: 20px 0px;
     padding: 10px;
-    border: #dddddd 1px solid;   
+    border: #dddddd 1px solid;
     border-radius: 10px;
     font-size: 18px;
 }
-.for-contact textarea
-{
+
+.for-contact textarea {
     width: 95%;
     margin-top: 20px;
     padding: 10px;
-    border: #dddddd 1px solid;   
+    border: #dddddd 1px solid;
     border-radius: 10px;
     font-size: 18px;
     resize: none;
 
 }
-.send-massege 
-{
+
+.send-massege {
     width: 30%;
     margin: auto;
     margin-top: 10px;
 }
-.send-massege button 
-{
+
+.send-massege button {
     background-color: #20c997;
     margin-bottom: 30px;
     color: white;
@@ -924,22 +989,22 @@ h1::after
     cursor: pointer;
     margin-top: 10px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
-    
+
 }
+
 .send-massege button:hover {
     background-color: rgba(100, 225, 135, 0.9);
-} 
+}
+
 /* <!-- Get in Touch section end --> */
 
-.edit-text
-{
+.edit-text {
     padding-bottom: 60px;
     color: #656565;
     font-size: 22px;
-    
+
 }
 
-.edit-text span
-{
+.edit-text span {
     color: #20c997;
 }

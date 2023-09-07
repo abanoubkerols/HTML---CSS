@@ -1,0 +1,145 @@
+.popup {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba($color-black , .8);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .7s;
+   
+
+
+    @supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        background-color: rgba($color-black , .3);
+    }
+
+    &__content {
+        @include absCenter;
+        width: 75%;
+
+        background-color: $color-white;
+        box-shadow: 0 2rem 4rem rgba($color-black , .8);
+        border-radius: 3px;
+        display: table;
+        overflow: hidden;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(.5);
+        transition: all .7s .2s;
+
+
+    }
+
+
+    &__left {
+        width: 33.33333%;
+        display: table-cell;
+
+        @include respond(tab-port) {
+            width: 100%;
+            display: block;
+            text-align: left;
+            padding-top: .5rem;
+       
+
+        }
+
+    }
+
+    &__right {
+        width: 66.666666%;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 3rem 5rem;
+
+        @include respond(tab-port) {
+            width: 100%;
+            display: block;
+            padding: 1.5rem 2.5rem;
+         
+        }
+
+    }
+
+    &__img {
+        display: block;
+        width: 100%;
+        @include respond(tab-port) {
+            width: 40%;
+            display: inline-block;
+            padding-left: 30px;
+       
+
+        }
+    }
+
+    &__text {
+        font-size: 1.4rem;
+        margin-bottom: 3rem;
+        column-count: 2;
+        column-gap: 4rem;
+        column-rule: 1px solid $color-gray-light-2;
+        hyphens: auto;
+        @include respond(tab-port) {
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+            column-count: 2;
+            column-gap: 2rem;
+            
+            
+       
+    
+        }
+    }
+
+
+    &:target {
+        opacity: 1;
+        visibility: visible;
+       
+    
+    }
+
+    &:target &__content {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+       
+    }
+
+
+    &__close {
+
+        &:link,
+        &:visited {
+            color: $color-gray-dark;
+            position: absolute;
+            top: 2.5rem;
+            right: 3rem;
+            font-size: 3rem;
+            text-decoration: none;
+            display: inline-block;
+            transition: all .2s;
+            line-height: 1;
+
+           
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+
+        
+        @include respond(tab-port) {
+            
+            display: block;
+            
+       
+
+        }
+    }
+
+}
